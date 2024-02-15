@@ -5,8 +5,28 @@
         static void Main(string[] args)
         {
             FeuRouge f1 = new FeuRouge();
-            f1.PeutPasser = false;
-            f1.couleur = CouleurFeuRouge.Rouge;
+
+            Console.WriteLine("Veuillez indiquer la couleur du feu rouge :");
+            Console.WriteLine("Vous avez le choix entre :");
+
+            string[] couleurs = Enum.GetNames<CouleurFeuRouge>();
+            for (int i = 0; i < couleurs.Length; i++)
+            {
+                Console.WriteLine(couleurs[i]);
+            }
+            string input = Console.ReadLine();
+            bool convertOk = Enum.TryParse<CouleurFeuRouge>(input, out f1.couleur);
+            while (convertOk == false)
+            {
+                Console.WriteLine("Mauvais choix, veuillez réessayer...");
+                Console.WriteLine("Vous avez le choix entre :");
+                for (int i = 0; i < couleurs.Length; i++)
+                {
+                    Console.WriteLine(couleurs[i]);
+                }
+                input = Console.ReadLine();
+                convertOk = Enum.TryParse<CouleurFeuRouge>(input, out f1.couleur);
+            }
 
             f1.ChangerCouleur();
 

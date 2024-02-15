@@ -10,6 +10,6 @@ namespace Demo_Enumeration
     {
         Vert,
         Orange,
-        Rouge
+        Rouge 
     }
 }
