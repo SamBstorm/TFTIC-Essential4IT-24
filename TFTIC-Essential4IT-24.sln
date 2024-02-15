@@ -15,17 +15,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exo-Sup-Tableau-03", "Exo-S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Collections", "Demo-Collections\Demo-Collections.csproj", "{E609A89D-9091-49B5-8FBD-4739DC039BEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo-Sup-List-01", "Exo-Sup-List-01\Exo-Sup-List-01.csproj", "{2F338CD2-9DEF-49B4-8F7E-AA00AA8B53E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exo-Sup-List-01", "Exo-Sup-List-01\Exo-Sup-List-01.csproj", "{2F338CD2-9DEF-49B4-8F7E-AA00AA8B53E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo-Sup-List-02", "Exo-Sup-List-02\Exo-Sup-List-02.csproj", "{DD2CF0D8-867A-45A3-BD73-FF72E22E2046}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exo-Sup-List-02", "Exo-Sup-List-02\Exo-Sup-List-02.csproj", "{DD2CF0D8-867A-45A3-BD73-FF72E22E2046}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Enumeration", "Demo-Enumeration\Demo-Enumeration.csproj", "{FCAE53B7-7639-4F8C-B07A-AB05AEBFD8F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Enumeration", "Demo-Enumeration\Demo-Enumeration.csproj", "{FCAE53B7-7639-4F8C-B07A-AB05AEBFD8F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Enumeration-Flags", "Demo-Enumeration-Flags\Demo-Enumeration-Flags.csproj", "{F84BFE4B-AA03-45B0-91C7-D08924C16E19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Enumeration-Flags", "Demo-Enumeration-Flags\Demo-Enumeration-Flags.csproj", "{F84BFE4B-AA03-45B0-91C7-D08924C16E19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Random", "Demo-Random\Demo-Random.csproj", "{26924E1D-A3AA-4FA4-81E8-E35357F0A6A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Random", "Demo-Random\Demo-Random.csproj", "{26924E1D-A3AA-4FA4-81E8-E35357F0A6A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo-Sup-Enum-01", "Exo-Sup-Enum-01\Exo-Sup-Enum-01.csproj", "{70387B90-CBAA-475E-A673-421958E5E137}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exo-Sup-Enum-01", "Exo-Sup-Enum-01\Exo-Sup-Enum-01.csproj", "{70387B90-CBAA-475E-A673-421958E5E137}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo-Slide-P203-JeuDeCartes", "Exo-Slide-P203-JeuDeCartes\Exo-Slide-P203-JeuDeCartes.csproj", "{CB322666-5EAA-4201-BCAE-C3ADF68A9E5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{70387B90-CBAA-475E-A673-421958E5E137}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70387B90-CBAA-475E-A673-421958E5E137}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70387B90-CBAA-475E-A673-421958E5E137}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB322666-5EAA-4201-BCAE-C3ADF68A9E5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB322666-5EAA-4201-BCAE-C3ADF68A9E5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB322666-5EAA-4201-BCAE-C3ADF68A9E5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB322666-5EAA-4201-BCAE-C3ADF68A9E5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
